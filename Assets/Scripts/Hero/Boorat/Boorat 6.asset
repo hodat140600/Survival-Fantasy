@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b3cd3f37fdc074e9043498d0704e62, type: 3}
+  m_Name: Boorat 6
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  live: {fileID: 0}
+  damage: {fileID: 0}
+  move: {fileID: 0}
+  magnet: {fileID: 11400000, guid: 7cc514c01eb311a4da22b84620da2171, type: 2}
+  armor: {fileID: 0}
+  radius: {fileID: 0}
+  loot: {fileID: 0}
+  coolDown: {fileID: 0}
+  regeneration: {fileID: 11400000, guid: 4bbb5d886b75e554bbb44d36ba9fbe44, type: 2}
+  exp: {fileID: 0}
+  heroID: 3
+  level: 6
+  currency: 0
+  adsCost: 0
+  moneyCost: 5000
+  heroModelPrefab: {fileID: 4481771792240448790, guid: c8ab1814f18c6594984b2535e12e67e4,
+    type: 3}

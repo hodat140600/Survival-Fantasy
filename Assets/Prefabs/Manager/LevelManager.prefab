@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7623520366093944631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7623520366093944624}
+  - component: {fileID: 7623520366093944625}
+  - component: {fileID: 7444077737373495582}
+  - component: {fileID: 1425559897}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7623520366093944624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623520366093944631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.9150763, y: -8.868877, z: 58.857677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7623520366093944625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623520366093944631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5931963792b1011419b588be688e12ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChapterList:
+  - {fileID: 11400000, guid: 0a3f182c75e17b74784edb3625a5304a, type: 2}
+  - {fileID: 11400000, guid: 07fb02d09ec4e7e4f9c114d5cc270ff0, type: 2}
+  - {fileID: 11400000, guid: efdd76e0d21eded4b8e9117eee76afe0, type: 2}
+  - {fileID: 11400000, guid: 499d78fafb58582438b8c64a96e7d702, type: 2}
+  ObjectPoolers: []
+  road: {fileID: 0}
+  generateTileMap: {fileID: 0}
+  currentChapter: 1
+  enemyTransforms: []
+  player: {fileID: 0}
+--- !u!114 &7444077737373495582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623520366093944631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73b9a9b59e12f54585dda19468e2ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeTile: 100
+  scaleTile: 10
+  cellToPos: 10
+  activeTileCount: 9
+  tileMapPool: {fileID: 1425559897}
+  prefabTile: {fileID: 4217067522727270630, guid: 38e98ae317a664346a8d35ba0913832d,
+    type: 3}
+  tileMapList: []
+  tileMapInfoList: []
+--- !u!114 &1425559897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623520366093944631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008cfb7e5235b104ab694a4bab1e66da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebug: 0
+  shouldDestroyOnLoad: 0
+  pools:
+  - tag: Tile
+    prefab: {fileID: 4217067522727270630, guid: 38e98ae317a664346a8d35ba0913832d,
+      type: 3}
+    amount: 12
+    shouldExpandPool: 1
+    extensionLimit: 1

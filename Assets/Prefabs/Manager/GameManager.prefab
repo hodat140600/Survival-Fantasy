@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5903612575113876301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5903612575113876298}
+  - component: {fileID: 5903612575113876343}
+  - component: {fileID: 5903612575113876342}
+  - component: {fileID: 5903612575113876297}
+  - component: {fileID: 5903612575113876296}
+  - component: {fileID: 5903612575113876299}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5903612575113876298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5903612575113876343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ab8327721243d4c8de9f0fa2e97ad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 0
+  joystick: {fileID: 0}
+  _skills: []
+  _skillHolder: {fileID: 0}
+  _aniamtorPlayer: {fileID: 0}
+  _modelPlayer: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: d4742412e8798204580e44f708fe9840, type: 2}
+  _sourceSound: {fileID: 0}
+  CappingTimeManager: {fileID: 0}
+  player: {fileID: 0}
+  playerTransform: {fileID: 0}
+  playerSettings: {fileID: 11400000, guid: bbeb5368a9f3fd643b94a210c6603f39, type: 2}
+  skillPriceSettings: {fileID: 11400000, guid: ad45ea97696ae3c43abb193d98a2b739, type: 2}
+  skillSystem: {fileID: 0}
+  isVibration: 0
+  isSoundOn: 0
+  Maps: []
+--- !u!114 &5903612575113876342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38125a8bc584ac1b88a9257b18cd304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbsSkillSettingsList:
+  - {fileID: 11400000, guid: 2f3aafe2d36e8084398cbff11a082cfc, type: 2}
+  - {fileID: 11400000, guid: b96c183c2757d184bbe7debf14201b49, type: 2}
+  - {fileID: 11400000, guid: acc21391865e33f4e857a8f467c72014, type: 2}
+  - {fileID: 11400000, guid: a94052e3ba0a7fa49af252ceb04eb871, type: 2}
+  - {fileID: 11400000, guid: bc16f0a6835fe1342942188fc1aa8512, type: 2}
+  - {fileID: 11400000, guid: 13605450f2f481440ad986e8585ed870, type: 2}
+  - {fileID: 11400000, guid: ce849e8d414057f478aa75ee121de160, type: 2}
+  - {fileID: 11400000, guid: 4d7c9789cbea37c4b81f82aa90a9323c, type: 2}
+  - {fileID: 11400000, guid: 89d79f89b5539f04085e47066eca0a4e, type: 2}
+  - {fileID: 11400000, guid: 9ea519146d0050f4aaf78d47abd44a9c, type: 2}
+  targetSkillSettingsList:
+  - {fileID: 11400000, guid: 228efabb64937104f828d2d09771aee0, type: 2}
+  - {fileID: 11400000, guid: 161e261eb9758e3419c8d6e43f1c6470, type: 2}
+  - {fileID: 11400000, guid: b60500266fa4f8e41af7647b7a030891, type: 2}
+  - {fileID: 11400000, guid: d1697b7423b84e542af76dd5ab49032b, type: 2}
+  - {fileID: 11400000, guid: 4e5267bd4238d9e46b66bc6d1763a7c7, type: 2}
+  - {fileID: 11400000, guid: 46fe81fd20dcf2648bab597dafdc8786, type: 2}
+  - {fileID: 11400000, guid: 758b4104fced632478ec8f6ba1943538, type: 2}
+  - {fileID: 11400000, guid: 4eec74d59072b714b842f61bb3c78dfa, type: 2}
+  - {fileID: 11400000, guid: d0fd4b5b69017c447903c899cb876e85, type: 2}
+  - {fileID: 11400000, guid: 9e95710585d52024a9cd77197c1b85ea, type: 2}
+  blastSkillSettingsList:
+  - {fileID: 11400000, guid: 186176b773299234ca7757e3f669c711, type: 2}
+  - {fileID: 11400000, guid: 27e675a0952436140bd16d220a1a79ca, type: 2}
+  - {fileID: 11400000, guid: 1a0a9c1185cf05145b949363775525e7, type: 2}
+  - {fileID: 11400000, guid: 5172ebb4c46bff545a557f728416bc20, type: 2}
+  - {fileID: 11400000, guid: c25fe8dead97fd14895398c9a57bd730, type: 2}
+  - {fileID: 11400000, guid: 7776e666ca220e6428217f5f07ed6c4d, type: 2}
+  - {fileID: 11400000, guid: 5c6f63821c4d51049834dade659ea1f9, type: 2}
+  - {fileID: 11400000, guid: 8a78454b551a5e74a90d1535efdc740a, type: 2}
+  - {fileID: 11400000, guid: c3e715c10899b304fbc7d75e5b280721, type: 2}
+  - {fileID: 11400000, guid: 1bdbf4021657b0c41b15784158c06e0d, type: 2}
+  slowSkillSettingsList:
+  - {fileID: 11400000, guid: 3c44761d6ef7ed94285ba2bea61bac63, type: 2}
+  - {fileID: 11400000, guid: 36142b0eed04dc24cbf0a2a1d4089866, type: 2}
+  - {fileID: 11400000, guid: 3e9b60603d061dc4bad420a4955c0d4c, type: 2}
+  - {fileID: 11400000, guid: e555a8482c0f8e54dab847cc7fe40d00, type: 2}
+  - {fileID: 11400000, guid: 0093529df2b59304f9947b555d94db60, type: 2}
+  - {fileID: 11400000, guid: 8c79e9c46aad70b4482714d68f7e6182, type: 2}
+  - {fileID: 11400000, guid: 185d70948a92fb14e8d0733121f5a1a6, type: 2}
+  - {fileID: 11400000, guid: b3dec42344c641d4facfd6d24fffc371, type: 2}
+  - {fileID: 11400000, guid: 39c12c1c2c80e95458e08b4c65a9aef5, type: 2}
+  - {fileID: 11400000, guid: 6014169fee4035d448dd12e5275e718d, type: 2}
+  splashSkillSettingsList:
+  - {fileID: 11400000, guid: 8edef4c7f0b9eac4fa79eeeacca87767, type: 2}
+  - {fileID: 11400000, guid: 68b023f7611b7d946badce59ab3eda02, type: 2}
+  - {fileID: 11400000, guid: 15b1d38277c2c3941be657f2b3f9c5d8, type: 2}
+  - {fileID: 11400000, guid: ee02ed3ac8fed9e4f8da2d2965daa938, type: 2}
+  - {fileID: 11400000, guid: 7119de133df88f243a516ab5a61723c8, type: 2}
+  - {fileID: 11400000, guid: b30aa4f5895b0554bb2880e39e7b198a, type: 2}
+  - {fileID: 11400000, guid: cc48589b99d4d4949a669eb42a1684d0, type: 2}
+  - {fileID: 11400000, guid: 605fd0bcb834f4042843c356c8652425, type: 2}
+  - {fileID: 11400000, guid: cc7e8aec67d916a41a6e5fd37242f7d4, type: 2}
+  - {fileID: 11400000, guid: 4e173ebd3772ddb41a771430b62752cd, type: 2}
+  chainLightningSkillSettingsList:
+  - {fileID: 11400000, guid: 0166f9c4e38cddf47a897e166963e8ce, type: 2}
+  - {fileID: 11400000, guid: c559ad8f549eabe4a894398cecea2098, type: 2}
+  - {fileID: 11400000, guid: d17b0dd00884a6243b50aa463d53cbea, type: 2}
+  - {fileID: 11400000, guid: 34d6649cdd59c254d9b8cfaef7d3d403, type: 2}
+  - {fileID: 11400000, guid: 903474789fe07174096b83b65b3a401d, type: 2}
+  - {fileID: 11400000, guid: 8e95d14a6f5af8f468ae43ab7fcdee97, type: 2}
+  - {fileID: 11400000, guid: 3f0e4e145741df84ea843e500e5cc898, type: 2}
+  - {fileID: 11400000, guid: 2bc60eaa426a0064ab85e9391809593d, type: 2}
+  - {fileID: 11400000, guid: 4dfecdf88f2ad214da00944d4703956b, type: 2}
+  - {fileID: 11400000, guid: 886c2048522b03c4aa46be82d2b6c3c4, type: 2}
+  damageSettingsList:
+  - {fileID: 11400000, guid: edb58d6857cb553458cbb14d7ad5cd1c, type: 2}
+  - {fileID: 11400000, guid: 44cebea3c2cc6d04f9c389c584c14d52, type: 2}
+  - {fileID: 11400000, guid: db8b51c593e4b544d9b77091b11844f2, type: 2}
+  - {fileID: 11400000, guid: f82bdf4582aeb554bbf060d65f64f064, type: 2}
+  - {fileID: 11400000, guid: 35fa654d7742fc9429b34dbd00cce0f2, type: 2}
+  - {fileID: 11400000, guid: 0b83193748840c14195e39f15d00d439, type: 2}
+  - {fileID: 11400000, guid: 06c7062b50195f44589f3d5336c319c3, type: 2}
+  - {fileID: 11400000, guid: 755ab93f82c8cfc4d919e4be714e45ce, type: 2}
+  - {fileID: 11400000, guid: d43712bd6b80bb54b9021b332907b33b, type: 2}
+  - {fileID: 11400000, guid: 286c322c412eb0d40893a4fbb68a61c3, type: 2}
+  liveSkillSettingsList:
+  - {fileID: 11400000, guid: 4694b0b7986f2524a8adb5348cedbfdf, type: 2}
+  - {fileID: 11400000, guid: 171a10b23f1a7e843bf259cb438df378, type: 2}
+  - {fileID: 11400000, guid: 9574bb9d9fb7698458a8b307dc1c4822, type: 2}
+  - {fileID: 11400000, guid: a23a142df8d9b9344b347bcb10003d38, type: 2}
+  - {fileID: 11400000, guid: 98dc98b5cd23cad4fb079b987a53030e, type: 2}
+  - {fileID: 11400000, guid: ffed5f456b913ba4fbca7a0210d76cab, type: 2}
+  - {fileID: 11400000, guid: a307389f8ae60fc4b9a9ad168ef7d7e7, type: 2}
+  - {fileID: 11400000, guid: 807531df5a5285e4eb38e9454128606d, type: 2}
+  - {fileID: 11400000, guid: e6c7f90b8d7939b439ea60778ac8beaf, type: 2}
+  - {fileID: 11400000, guid: 3756393a09c6a9e44846adb3e5e7cbd3, type: 2}
+  smashSkillSettingsList:
+  - {fileID: 11400000, guid: 1125936cd87b6474ca6351a2a2208424, type: 2}
+  - {fileID: 11400000, guid: cb0b833b0e4c2aa4bbc82b629bc45d56, type: 2}
+  - {fileID: 11400000, guid: dc4803d9e1f74044dbc39cecb89256ed, type: 2}
+  - {fileID: 11400000, guid: 231673fa479dae343a188586a1139c67, type: 2}
+  - {fileID: 11400000, guid: ca4cd807e0456f34bb2f68a7b73835e3, type: 2}
+  - {fileID: 11400000, guid: a257d7efd80948e48857d16d64e0e668, type: 2}
+  - {fileID: 11400000, guid: 3e4b1ff58af7b234995b1aa1ecf73ce0, type: 2}
+  - {fileID: 11400000, guid: c467f4c3aaf69e6409ff31c3060709a0, type: 2}
+  - {fileID: 11400000, guid: c38bd73463ee8e040a272cfc0bddc196, type: 2}
+  - {fileID: 11400000, guid: df1876e06551a6d47bba2c6abc0a7d3d, type: 2}
+  moveSkillSettingsList:
+  - {fileID: 11400000, guid: fabbcfe727af7e64ea648bfd2b9bd692, type: 2}
+  - {fileID: 11400000, guid: 8e84607662a25294d8849009e6ce3df0, type: 2}
+  - {fileID: 11400000, guid: 78e9aa16c593add48b60f67e2cb3cd7e, type: 2}
+  - {fileID: 11400000, guid: d2bc70ec9ba34d44aa8cde3224a286ad, type: 2}
+  - {fileID: 11400000, guid: 22103c0f0244bde4d88acab6c06aacc8, type: 2}
+  radiusSettingsList:
+  - {fileID: 11400000, guid: 93f62457413c7ac458b19365a121e2b0, type: 2}
+  - {fileID: 11400000, guid: 06fac3500883d4c408a0e3d648c214f0, type: 2}
+  - {fileID: 11400000, guid: 8888e088c7b95d44381b5fb3f2e973d8, type: 2}
+  - {fileID: 11400000, guid: 3f2069b12e22f584f9a093a36f6a2ca2, type: 2}
+  - {fileID: 11400000, guid: 913690fbfc625fc4f9b9da9135081501, type: 2}
+  - {fileID: 11400000, guid: dd03b381b1c97a74ca5fe0e479aeaf42, type: 2}
+  - {fileID: 11400000, guid: e197786dc0936134eb0738e319b97caf, type: 2}
+  - {fileID: 11400000, guid: 48d82f2863762ce47840259006d889df, type: 2}
+  - {fileID: 11400000, guid: 8445b1e57c52d194a909ae00fe5db602, type: 2}
+  - {fileID: 11400000, guid: e3a8a285e65d1a5499d89ee1253867ba, type: 2}
+  projectilesSettingsList:
+  - {fileID: 11400000, guid: a9efa9a62f7fc264c99140fb161ae47c, type: 2}
+  - {fileID: 11400000, guid: 7c8a9ebeca1fdfd4a958b9479407a14a, type: 2}
+  magnetSkillSettingsList:
+  - {fileID: 11400000, guid: a57638daa7d57d740bce9df840198943, type: 2}
+  - {fileID: 11400000, guid: f833f0bbccbb55e4bb402e8b8683e3d4, type: 2}
+  - {fileID: 11400000, guid: f9fe00d4a5a095044b36d0328361ca30, type: 2}
+  - {fileID: 11400000, guid: abac66e427415994bbc86112d4b91d7b, type: 2}
+  - {fileID: 11400000, guid: 9f2e5f0d2ca74794e8436a138c0f374e, type: 2}
+  - {fileID: 11400000, guid: 3d56b21f7ef1a5f4d917d6f061a4883f, type: 2}
+  - {fileID: 11400000, guid: b60fae01b78010e43809bc96946b367b, type: 2}
+  - {fileID: 11400000, guid: 327029421baa47849917f0d7bfb12db2, type: 2}
+  - {fileID: 11400000, guid: 5ef65c7131056464f88cb69383df59f6, type: 2}
+  - {fileID: 11400000, guid: 51b859e9c21b3b54b93ed8de43c24eeb, type: 2}
+  meteorStrikeSkillSettings:
+  - {fileID: 11400000, guid: a8ab35deb9712704a85331200837ae2b, type: 2}
+  - {fileID: 11400000, guid: 0c2a92d89248f10458bbf700809bc5ed, type: 2}
+  - {fileID: 11400000, guid: 2e2c5824fd6bdf14294b0bb05cc64441, type: 2}
+  - {fileID: 11400000, guid: fdf269e6e8aa9844daa2daf1716bc81a, type: 2}
+  - {fileID: 11400000, guid: d42e80e6786c27b4a99c6f416ec4e1e3, type: 2}
+  - {fileID: 11400000, guid: 7e5ae43dece5dff4dbd06ccd2afac752, type: 2}
+  - {fileID: 11400000, guid: ddb18c379f8294f41957252d0df6d8b0, type: 2}
+  - {fileID: 11400000, guid: e66c187a7cc036d46bc3d75735b5b08a, type: 2}
+  - {fileID: 11400000, guid: e825a2671bda7304a96f55c55dcd6e28, type: 2}
+  - {fileID: 11400000, guid: 985e8080ce957b149a841fc2baac0fff, type: 2}
+  laserBeamSkillSettings:
+  - {fileID: 11400000, guid: c99a63672c8df8540b405ad3fdf18abf, type: 2}
+  - {fileID: 11400000, guid: 09c3badd47335dd42936849ab355cf8b, type: 2}
+  - {fileID: 11400000, guid: 9c331034e7a8c6e45941bb211c9a1eeb, type: 2}
+  - {fileID: 11400000, guid: 1f9e2fa3fbf840c4b9e261d69cc196d6, type: 2}
+  - {fileID: 11400000, guid: 5620e0b6c3c1a544ab2cf78b51052f4c, type: 2}
+  - {fileID: 11400000, guid: 9d534dfcd1473504ab7a0d84f2e00985, type: 2}
+  - {fileID: 11400000, guid: 93afe2f70c5d7a4479f29f697a2c76fc, type: 2}
+  - {fileID: 11400000, guid: 4b6627d03d7f5eb45809626f782cd3ac, type: 2}
+  - {fileID: 11400000, guid: a1db78d77aab94946bed86a3b5a3d8df, type: 2}
+  - {fileID: 11400000, guid: f18a796d6c8b2884dacbfcbd024cd264, type: 2}
+  frostFieldSkillSettings:
+  - {fileID: 11400000, guid: e261957af6f35c243801694fbbce646e, type: 2}
+  - {fileID: 11400000, guid: 3d929212726564145983f2bd92109bf9, type: 2}
+  - {fileID: 11400000, guid: c5f30f2ad6e2e614c9bd1f8b2fef5a68, type: 2}
+  - {fileID: 11400000, guid: 7188ca2ef78b2684c9865da4bb2d67ca, type: 2}
+  - {fileID: 11400000, guid: 6ef7cc12673f40140b918ce526482eae, type: 2}
+  - {fileID: 11400000, guid: 9980bb27a16932b4db6575377a6b4a2c, type: 2}
+  - {fileID: 11400000, guid: 3d099a5fe63ce55499577bd087501400, type: 2}
+  - {fileID: 11400000, guid: 5b92b7216d26ccc4e91910b5c491d5f6, type: 2}
+  - {fileID: 11400000, guid: 97a199c0c6a4c6a41bafb806c0ba5a69, type: 2}
+  - {fileID: 11400000, guid: de28e56d1fe0a3646a795386839be270, type: 2}
+  earthquakeSkillSettings:
+  - {fileID: 11400000, guid: cf59598874edc2843a9085d2cff0979e, type: 2}
+  - {fileID: 11400000, guid: d99628de6a98e2f4195d23a6a88ec20e, type: 2}
+  - {fileID: 11400000, guid: ec97910fe1f770444babb9a2326f9c63, type: 2}
+  - {fileID: 11400000, guid: 06f346c52fb42e2459f0ba62cdbfabb3, type: 2}
+  - {fileID: 11400000, guid: 46872a9493ed8d249a1323de85de3b8a, type: 2}
+  - {fileID: 11400000, guid: 2c07933a4cc11d740bccade6f461e389, type: 2}
+  - {fileID: 11400000, guid: 8c45bbd187f33c94ba087b22380dec0e, type: 2}
+  - {fileID: 11400000, guid: b1bff98f43b96dd40993419c2e30216c, type: 2}
+  - {fileID: 11400000, guid: 1e56ab6c954f29c48967aa1a2574df76, type: 2}
+  - {fileID: 11400000, guid: 2f07a4725c46fec46b13ec756e0ae609, type: 2}
+  poisonSkillSettings:
+  - {fileID: 11400000, guid: 2ede25e8edcadf146b7522e5c98eb9af, type: 2}
+  - {fileID: 11400000, guid: 2372402b12cd84449ad6cd1b614f1046, type: 2}
+  - {fileID: 11400000, guid: f7f03817f567dfb4a864d8e8e3729fe8, type: 2}
+  - {fileID: 11400000, guid: f38144a1ed80e264ca8b287de395a791, type: 2}
+  - {fileID: 11400000, guid: 462492b8ce8fea34f9d3e45c19cc112e, type: 2}
+  - {fileID: 11400000, guid: 21f006a0308e93f4284a4ccb32d148af, type: 2}
+  - {fileID: 11400000, guid: eb049ce2fa2d5df46a188bc1dd50673d, type: 2}
+  - {fileID: 11400000, guid: bbff06c76ec3b234a8f38619b540d4c4, type: 2}
+  - {fileID: 11400000, guid: ebaa9fb74477eea4d91cfba236fc094d, type: 2}
+  - {fileID: 11400000, guid: a019556d6e639ba4c86d6dbfc5194d67, type: 2}
+  pryoSkillSettings:
+  - {fileID: 11400000, guid: cf15705ae69d09b4d86ba94b80b42aab, type: 2}
+  - {fileID: 11400000, guid: bf4e289635d573742b21b7ab1405b8ba, type: 2}
+  - {fileID: 11400000, guid: 4ffed1cc58f50f749a1649d78e69d4a6, type: 2}
+  - {fileID: 11400000, guid: db72f8c7b3739514ebf36ebaf435a41d, type: 2}
+  - {fileID: 11400000, guid: 061b00d32d8018b429ace9dbe7cc696f, type: 2}
+  - {fileID: 11400000, guid: bb692319aabded749ad63d2cf153febf, type: 2}
+  - {fileID: 11400000, guid: 19c54eb567b4fdc47888efd1dbbffaa5, type: 2}
+  - {fileID: 11400000, guid: 0833d3d1882451e43bbc9716ba253952, type: 2}
+  - {fileID: 11400000, guid: d45dbf7f4ac48574ea649a0d27487bf9, type: 2}
+  - {fileID: 11400000, guid: a348a67001fb3d9449fc8696776773ce, type: 2}
+  CooldownSettingsList:
+  - {fileID: 11400000, guid: c6c1088b72f2ec848a1ef70ff3d5f59b, type: 2}
+  - {fileID: 11400000, guid: 6da0f22c7502f274d81018e20fbd1518, type: 2}
+  - {fileID: 11400000, guid: 6a9622f5731732648a0d68aab98c7e67, type: 2}
+  - {fileID: 11400000, guid: b81f6329633bb164298497d2f38d1dcd, type: 2}
+  - {fileID: 11400000, guid: 93a044dc6ae0f374dbe53d5429b41d9e, type: 2}
+  - {fileID: 11400000, guid: 5388564b3035445409458267f249bdd0, type: 2}
+  - {fileID: 11400000, guid: a49dcc06ec9d37048a943611ba2154e3, type: 2}
+  - {fileID: 11400000, guid: 0d10004d483ea2b4e80303cdb710596a, type: 2}
+  - {fileID: 11400000, guid: f057a0fd544c36e4d86894c0dc8c7d9f, type: 2}
+  - {fileID: 11400000, guid: 99ce24be7d609b24a87e258cdba3f679, type: 2}
+  HealSkillSettingsList:
+  - {fileID: 11400000, guid: 5686c5281704b0b46addd3de06780e15, type: 2}
+  - {fileID: 11400000, guid: 5bebf5a711e3c0348bce4596675e8c79, type: 2}
+  - {fileID: 11400000, guid: 6cb38ce4b2e3e1d46a89d7a3081af7e7, type: 2}
+  - {fileID: 11400000, guid: 15bf57eb46ab4d44bb2d20a3b5204f2b, type: 2}
+  - {fileID: 11400000, guid: f508aefea33b0554fb01c8d0c102c190, type: 2}
+  - {fileID: 11400000, guid: b7394266db5076a4a92ecee956f5c853, type: 2}
+  - {fileID: 11400000, guid: fb1d36db92986c34281094cb53fe74eb, type: 2}
+  - {fileID: 11400000, guid: e62c5bf80e7e20d4b963e66b7edf34af, type: 2}
+  - {fileID: 11400000, guid: f3e4272c281320d4e9b523212d7b3825, type: 2}
+  - {fileID: 11400000, guid: 89f0d2b22d83f2a4faeb555d1aaeaa7f, type: 2}
+  ArmorSkillSettingsList:
+  - {fileID: 11400000, guid: dd3335593e39c1948811fd573a69a47a, type: 2}
+  - {fileID: 11400000, guid: 3327c9bf9f829b64eb8feb0b1e3e5f61, type: 2}
+  - {fileID: 11400000, guid: ec9d0db1dd53da3459b4708760a8fc56, type: 2}
+  - {fileID: 11400000, guid: 3871d9601a93e3e408e0313b85799821, type: 2}
+  - {fileID: 11400000, guid: 6af82cc3900984e41aa400a4d8413377, type: 2}
+  - {fileID: 11400000, guid: ef9899e6575346f4098dc3bd1e022846, type: 2}
+  - {fileID: 11400000, guid: 8ddaf33c4a2193d47bcaf51ccecb7377, type: 2}
+  - {fileID: 11400000, guid: 16bf8c8fc0e8490419d3736c2326a054, type: 2}
+  - {fileID: 11400000, guid: cccded81855b8e14c9b0261b130a5221, type: 2}
+  - {fileID: 11400000, guid: aaeb689cecf66154eba5993f10d0c60f, type: 2}
+  goldSkill: {fileID: 11400000, guid: 7b3d7599e40f5ce49b2922d9c80540da, type: 2}
+--- !u!114 &5903612575113876297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb0bab7bd93e774ba9913b83b6e306d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5903612575113876296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c1e0c78887af4e408d69bff3110337a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listHero:
+  - heroID: 1
+    heroName: Dante
+    buffAllSkillHero: 1
+    heroLevelSettings:
+    - {fileID: 11400000, guid: 7a4c85fbcb44398438edb4f03269569e, type: 2}
+    - {fileID: 11400000, guid: 61c7703c4b8ad6b49905892a0dcc9c34, type: 2}
+    - {fileID: 11400000, guid: ac89e7dd8d0ebf4428fa53339104a3d2, type: 2}
+    - {fileID: 11400000, guid: 7c97415b70282634e8e62985dbbbdc73, type: 2}
+    - {fileID: 11400000, guid: c7eb639c46a17d640865ec706b97bb65, type: 2}
+    - {fileID: 11400000, guid: a1948394659539c44bf30958beddd6b6, type: 2}
+    - {fileID: 11400000, guid: a0ac2a0989998ca4e87a30e53ac085a6, type: 2}
+    - {fileID: 11400000, guid: 0b59e8772eead1742b9afc700b601d4d, type: 2}
+    - {fileID: 11400000, guid: 2d6fa7517835ed448a2485cf47f8affa, type: 2}
+    - {fileID: 11400000, guid: faa083538d2743b42a91fe05851dd703, type: 2}
+  - heroID: 2
+    heroName: Ghostie
+    buffAllSkillHero: 2
+    heroLevelSettings:
+    - {fileID: 11400000, guid: 2cb57882887736c4085aa213bf7cb5f4, type: 2}
+    - {fileID: 11400000, guid: 0d5577bbb9d45a445be40591324baf0d, type: 2}
+    - {fileID: 11400000, guid: ff3d841ea23664742bae60e963482b3d, type: 2}
+    - {fileID: 11400000, guid: 01cef9af35317f94dbd248c5e9a77a2e, type: 2}
+    - {fileID: 11400000, guid: d360a0a81c517e3488e68b2da3727307, type: 2}
+    - {fileID: 11400000, guid: a9f699b03f2c46643a1a1dcb86dff2fd, type: 2}
+    - {fileID: 11400000, guid: 8401d45405c48a44d9d460be8d2c918d, type: 2}
+    - {fileID: 11400000, guid: f5e13b809f1773a42b558665da7fca04, type: 2}
+    - {fileID: 11400000, guid: c6fa4caffedbd7a4287780e0ac14d713, type: 2}
+    - {fileID: 11400000, guid: ff240e59a3442134f962ce661ac7dcdb, type: 2}
+  - heroID: 3
+    heroName: Boorat
+    buffAllSkillHero: 3
+    heroLevelSettings:
+    - {fileID: 11400000, guid: f66e4c65c574db74f9a236edcd8d3be7, type: 2}
+    - {fileID: 11400000, guid: d5d1d788278bd2e40ae5fbe679be823e, type: 2}
+    - {fileID: 11400000, guid: f8ff00c360266534d833ce966ad170c0, type: 2}
+    - {fileID: 11400000, guid: 9abcf181763ff5c4da88771473b21327, type: 2}
+    - {fileID: 11400000, guid: 32c479648876ea5449c630004bb749cf, type: 2}
+    - {fileID: 11400000, guid: 048571e0ffc731647b2a3508f7c1ae85, type: 2}
+    - {fileID: 11400000, guid: ca938f9af2903f843b46dba4e03932cb, type: 2}
+    - {fileID: 11400000, guid: 46d1c58d6ce356843b35f3ed4ca133ca, type: 2}
+    - {fileID: 11400000, guid: e67629821e73afa45b9ce824357c0505, type: 2}
+    - {fileID: 11400000, guid: 0bf3b70d2f650254ba8baaf34e11389a, type: 2}
+  - heroID: 4
+    heroName: Ponchie
+    buffAllSkillHero: 4
+    heroLevelSettings:
+    - {fileID: 11400000, guid: c9bdbac5794cce44e8019cc5a07b1b39, type: 2}
+    - {fileID: 11400000, guid: 2a951b6a741cb214e87c1dfe2c539454, type: 2}
+    - {fileID: 11400000, guid: 57843c635a77e894c99ea410255281f4, type: 2}
+    - {fileID: 11400000, guid: 39ab76f1e2e048b4aafdcf1cde871f12, type: 2}
+    - {fileID: 11400000, guid: 86453302b7a1d7143bdb36be6662fa6b, type: 2}
+    - {fileID: 11400000, guid: 2e43e43eb0832074b9f6400f81801d62, type: 2}
+    - {fileID: 11400000, guid: 4f7c0b58aa03e6e49a533ff5ed5b35b7, type: 2}
+    - {fileID: 11400000, guid: fe3da8f387b151b4789e5e567b6488b5, type: 2}
+    - {fileID: 11400000, guid: 750ac9e0e7657054c8d10d44193646a8, type: 2}
+    - {fileID: 11400000, guid: d251d4cdd27feeb4583d1c4f3e77ebfc, type: 2}
+  - heroID: 5
+    heroName: Dopolob
+    buffAllSkillHero: 5
+    heroLevelSettings:
+    - {fileID: 11400000, guid: 4cbb1a03f61ec044a8fd1bdfd1701b41, type: 2}
+    - {fileID: 11400000, guid: 014b1e8d562e82041befedcd94964479, type: 2}
+    - {fileID: 11400000, guid: ac981668db6f5a446965864f81cf0d2d, type: 2}
+    - {fileID: 11400000, guid: 8af61c8b156a25243865b67848ce5290, type: 2}
+    - {fileID: 11400000, guid: 15b452e554ea25f4e81f3ff1af652faf, type: 2}
+    - {fileID: 11400000, guid: ff83c5f791b1b724bb9d6c263615cf4e, type: 2}
+    - {fileID: 11400000, guid: 5541db7121769774b905746295de35fa, type: 2}
+    - {fileID: 11400000, guid: 8285dce4dd635bb45b561f666fd4f822, type: 2}
+    - {fileID: 11400000, guid: 15610a056aa4d304d83ba38845d40e37, type: 2}
+    - {fileID: 11400000, guid: 855c6f33f2771154d90d34ef382f840e, type: 2}
+  - heroID: 6
+    heroName: Jack O' Latern
+    buffAllSkillHero: 6
+    heroLevelSettings:
+    - {fileID: 11400000, guid: 7667825b57b0fff4ea3a62fc298201f9, type: 2}
+    - {fileID: 11400000, guid: b7a37dfd741bf2540b4602d3a88ac235, type: 2}
+    - {fileID: 11400000, guid: 30a8bf8001cae294282508283e5d3ff6, type: 2}
+    - {fileID: 11400000, guid: ae472f412928d9f4e97a97de64cffad3, type: 2}
+    - {fileID: 11400000, guid: 984a0e94ffc33cf4f939a7e2076ca0bd, type: 2}
+    - {fileID: 11400000, guid: 207a5f5553d554746a3d570507ef33b6, type: 2}
+    - {fileID: 11400000, guid: 18a3f56298f823048a2951dcbeb94344, type: 2}
+    - {fileID: 11400000, guid: 5197ce96840c52d4a9ea9eca9ccef826, type: 2}
+    - {fileID: 11400000, guid: 3443c01e949f33144816c669cfb77556, type: 2}
+    - {fileID: 11400000, guid: 731f7c0cf652ea945b4c03337aad840c, type: 2}
+  - heroID: 7
+    heroName: Velvet Witch
+    buffAllSkillHero: 8
+    heroLevelSettings:
+    - {fileID: 11400000, guid: f50744bc48a99f34baa27022ce998e6d, type: 2}
+    - {fileID: 11400000, guid: bafe5abf73bb50047b1a26fe28b210dc, type: 2}
+    - {fileID: 11400000, guid: 04e592800da942744b1d789935019274, type: 2}
+    - {fileID: 11400000, guid: 2837980e69b23ce4fb379f0833367ae7, type: 2}
+    - {fileID: 11400000, guid: 859af85216639f14abcb74aad4fe1504, type: 2}
+    - {fileID: 11400000, guid: 455706f4777012b4a88d4c98db1f43ca, type: 2}
+    - {fileID: 11400000, guid: 9d0f669edc7cd7b4b9c390973676011f, type: 2}
+    - {fileID: 11400000, guid: 4aa837a755d1e6940976382bb3564ed8, type: 2}
+    - {fileID: 11400000, guid: 6d0ecb77f95704449944a4f8392b2707, type: 2}
+    - {fileID: 11400000, guid: 27c2f488029dcc9469a8aad15a57b967, type: 2}
+  baseHeroSetting: {fileID: 11400000, guid: 736ebd686e8401549bdcd7645fe63675, type: 2}
+--- !u!114 &5903612575113876299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903612575113876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091d1e515e3a51b4ab0b4fa61bc867d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f807c3cb45831604d9d03f36af49d455, type: 2}
+    - {fileID: 11400000, guid: 31927448fa9321b4cbaedd2171d3a75c, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: listIBaseSettings
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Assets.Scripts.Skills.IBaseSettings,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  heroIDBaseSetting: 1
+  levelHeroBaseSetting: 7
+  heroID: 4
+  listUIHeroData:
+  - heroID: 1
+    heroName: Blob
+    level: 1
+    isUnlock: 1
+  - heroID: 2
+    heroName: Ghostie
+    level: 1
+    isUnlock: 0
+  - heroID: 3
+    heroName: Boorat
+    level: 1
+    isUnlock: 0
+  - heroID: 4
+    heroName: Ponchie
+    level: 1
+    isUnlock: 0
+  - heroID: 5
+    heroName: Dopolob
+    level: 1
+    isUnlock: 0

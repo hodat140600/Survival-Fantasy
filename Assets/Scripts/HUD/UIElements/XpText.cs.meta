@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/HUD/UIElements/XpText.cs.meta
+guid: 3f114ce9450564b47815ff56a32946fe
+========
+guid: 12b3030adf55dfa44bf53d4fbe01cb0e
+>>>>>>>> master:Assets/Scripts/Skills/EarthquakeSkill/EarthquakeBehavior.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

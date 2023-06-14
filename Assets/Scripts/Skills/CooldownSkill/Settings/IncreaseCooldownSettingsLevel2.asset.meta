@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Heureka/AssetHunterPRO/Editor/EditorData.meta
+guid: 6da0f22c7502f274d81018e20fbd1518
+folderAsset: yes
+DefaultImporter:
+========
+guid: 7bf7d89bca2941e4e83d846e75e4d01a
+NativeFormatImporter:
+>>>>>>>> new-main:Assets/Scripts/Skills/CooldownSkill/Settings/IncreaseCooldownSettingsLevel2.asset.meta
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

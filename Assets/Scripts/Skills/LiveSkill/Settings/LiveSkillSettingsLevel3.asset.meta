@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Skills/LiveSkill/Settings/LiveSkillSettingsLevel3.asset.meta
+guid: 9574bb9d9fb7698458a8b307dc1c4822
+========
+guid: 632ca2d13c339974b816cb651c78be60
+>>>>>>>> master:Assets/Scripts/Skills/LiveSkill/Settings/LiveSkillLV3.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

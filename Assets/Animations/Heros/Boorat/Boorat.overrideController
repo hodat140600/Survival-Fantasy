@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Boorat
+  m_Controller: {fileID: 9100000, guid: ee7f683e4f1149e4f955cc2c37ad80f8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 9efcc5a501eba444197a6f75e671088d,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 582c56c0be40dfd4183dfc1bcd329300, type: 2}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 6246b35207a3f5b4ba3b3aa8fcefc2ab,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 3306fca8168fedb4f9587f94e23ed122, type: 2}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5176cfc8096043146bf1b8b108b37e56,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: f4d694c2b9b06db4e991b4115726eb48, type: 2}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 14f79b30320cfd0459dc8e0095622c67,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: f4075e392a494ff4d9589711e7900819, type: 2}

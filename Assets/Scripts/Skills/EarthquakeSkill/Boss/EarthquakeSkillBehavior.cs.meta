@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Skills/GoldSkill/GoldSkillSettings.cs.meta
+guid: b1d05344ce50a5f41bfa618a2bed0973
+========
+guid: a76fea28ab5da6644a4949816b05434e
+>>>>>>>> master:Assets/Scripts/Skills/EarthquakeSkill/EarthquakeSkillBehavior.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

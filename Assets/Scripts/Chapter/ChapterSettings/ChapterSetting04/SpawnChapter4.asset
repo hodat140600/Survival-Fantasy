@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e011575f76a5542a9e11d494a73dce, type: 3}
+  m_Name: SpawnChapter4
+  m_EditorClassIdentifier: 
+  waves:
+  - idWave: 1
+    enemyTypeInWaves: 1
+    numberPerWave: 30
+    waveTotal: 3
+    timeForSpawnWave: 0
+    timeBetweenWave: 20
+  - idWave: 2
+    enemyTypeInWaves: 2
+    numberPerWave: 30
+    waveTotal: 3
+    timeForSpawnWave: 10
+    timeBetweenWave: 20
+  - idWave: 3
+    enemyTypeInWaves: 3
+    numberPerWave: 30
+    waveTotal: 3
+    timeForSpawnWave: 20
+    timeBetweenWave: 20
+  - idWave: 4
+    enemyTypeInWaves: 4
+    numberPerWave: 20
+    waveTotal: 3
+    timeForSpawnWave: 45
+    timeBetweenWave: 30
+  - idWave: 5
+    enemyTypeInWaves: 5
+    numberPerWave: 20
+    waveTotal: 3
+    timeForSpawnWave: 55
+    timeBetweenWave: 30
+  - idWave: 6
+    enemyTypeInWaves: 6
+    numberPerWave: 1
+    waveTotal: 3
+    timeForSpawnWave: 60
+    timeBetweenWave: 120
+  - idWave: 7
+    enemyTypeInWaves: 7
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 60
+    timeBetweenWave: 30
+  - idWave: 8
+    enemyTypeInWaves: 8
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 70
+    timeBetweenWave: 30
+  - idWave: 9
+    enemyTypeInWaves: 9
+    numberPerWave: 10
+    waveTotal: 6
+    timeForSpawnWave: 90
+    timeBetweenWave: 45
+  - idWave: 10
+    enemyTypeInWaves: 10
+    numberPerWave: 10
+    waveTotal: 6
+    timeForSpawnWave: 100
+    timeBetweenWave: 45
+  - idWave: 11
+    enemyTypeInWaves: 11
+    numberPerWave: 10
+    waveTotal: 6
+    timeForSpawnWave: 110
+    timeBetweenWave: 45
+  - idWave: 12
+    enemyTypeInWaves: 12
+    numberPerWave: 30
+    waveTotal: 3
+    timeForSpawnWave: 120
+    timeBetweenWave: 30
+  - idWave: 13
+    enemyTypeInWaves: 13
+    numberPerWave: 1
+    waveTotal: 3
+    timeForSpawnWave: 120
+    timeBetweenWave: 120
+  - idWave: 14
+    enemyTypeInWaves: 14
+    numberPerWave: 30
+    waveTotal: 3
+    timeForSpawnWave: 130
+    timeBetweenWave: 30
+  - idWave: 15
+    enemyTypeInWaves: 15
+    numberPerWave: 30
+    waveTotal: 1
+    timeForSpawnWave: 180
+    timeBetweenWave: 0
+  - idWave: 16
+    enemyTypeInWaves: 16
+    numberPerWave: 30
+    waveTotal: 1
+    timeForSpawnWave: 190
+    timeBetweenWave: 0
+  - idWave: 17
+    enemyTypeInWaves: 17
+    numberPerWave: 30
+    waveTotal: 1
+    timeForSpawnWave: 200
+    timeBetweenWave: 0
+  - idWave: 18
+    enemyTypeInWaves: 18
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 210
+    timeBetweenWave: 20
+  - idWave: 19
+    enemyTypeInWaves: 19
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 220
+    timeBetweenWave: 20
+  - idWave: 20
+    enemyTypeInWaves: 20
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 240
+    timeBetweenWave: 45
+  - idWave: 21
+    enemyTypeInWaves: 21
+    numberPerWave: 30
+    waveTotal: 4
+    timeForSpawnWave: 250
+    timeBetweenWave: 45
+  - idWave: 22
+    enemyTypeInWaves: 22
+    numberPerWave: 30
+    waveTotal: 6
+    timeForSpawnWave: 270
+    timeBetweenWave: 30
+  - idWave: 23
+    enemyTypeInWaves: 23
+    numberPerWave: 30
+    waveTotal: 6
+    timeForSpawnWave: 280
+    timeBetweenWave: 30
+  - idWave: 24
+    enemyTypeInWaves: 24
+    numberPerWave: 40
+    waveTotal: 3
+    timeForSpawnWave: 290
+    timeBetweenWave: 60
+  - idWave: 25
+    enemyTypeInWaves: 25
+    numberPerWave: 40
+    waveTotal: 3
+    timeForSpawnWave: 300
+    timeBetweenWave: 60
+  - idWave: 26
+    enemyTypeInWaves: 26
+    numberPerWave: 40
+    waveTotal: 1
+    timeForSpawnWave: 300
+    timeBetweenWave: 0
+  - idWave: 27
+    enemyTypeInWaves: 27
+    numberPerWave: 40
+    waveTotal: 1
+    timeForSpawnWave: 310
+    timeBetweenWave: 0
+  - idWave: 28
+    enemyTypeInWaves: 28
+    numberPerWave: 30
+    waveTotal: 1
+    timeForSpawnWave: 330
+    timeBetweenWave: 0
+  - idWave: 29
+    enemyTypeInWaves: 29
+    numberPerWave: 30
+    waveTotal: 1
+    timeForSpawnWave: 340
+    timeBetweenWave: 0
+  - idWave: 30
+    enemyTypeInWaves: 30
+    numberPerWave: 40
+    waveTotal: 2
+    timeForSpawnWave: 360
+    timeBetweenWave: 30
+  - idWave: 31
+    enemyTypeInWaves: 31
+    numberPerWave: 40
+    waveTotal: 2
+    timeForSpawnWave: 370
+    timeBetweenWave: 30
+  enemies:
+  - enemyStatus: {fileID: 11400000, guid: 472616e4d3bfe824980ea34900ad8928, type: 2}
+    enemy: {fileID: 539643580609255176, guid: 1b311cb6e081503409e58449bb058c6a, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 472616e4d3bfe824980ea34900ad8928, type: 2}
+    enemy: {fileID: 1523765596573822941, guid: eedb10e1c678f2449843e5200868f255, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 472616e4d3bfe824980ea34900ad8928, type: 2}
+    enemy: {fileID: 2127343355384467937, guid: 5255434e8904dc645840cf509a5e85d2, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 208bfe4bd26255344a88cd2369fdfda9, type: 2}
+    enemy: {fileID: 2127343355384467937, guid: 33b2c775953217b41a922d9a09027f8c, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 208bfe4bd26255344a88cd2369fdfda9, type: 2}
+    enemy: {fileID: 2127343355384467937, guid: fa0292692b6c0124687c399b4b6b68e9, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: f59137d1b3ab29549936dfc846814fb1, type: 2}
+    enemy: {fileID: 8945930200154332852, guid: ea6e7b2d6de4a444ca20a0ad7521b2fe, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 90d11bf4efd169d498b170ca89795e03, type: 2}
+    enemy: {fileID: 294247799630601253, guid: a4ee6c12b5966c446be45dbe60909b1f, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 90d11bf4efd169d498b170ca89795e03, type: 2}
+    enemy: {fileID: 294247799630601253, guid: 786dcf92ee4e3fc4daff396338725fd1, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 2b5f4aeaa2df79a43b3c79e9e06accf7, type: 2}
+    enemy: {fileID: 6747770132286583585, guid: 03496a7cae8f4204c8c6114ef33f255d, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 2b5f4aeaa2df79a43b3c79e9e06accf7, type: 2}
+    enemy: {fileID: 8527551393736341876, guid: 2ec78f335828c14468853760ffe74b5f, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 2b5f4aeaa2df79a43b3c79e9e06accf7, type: 2}
+    enemy: {fileID: 1523765596573822941, guid: 3a4c227e12b6af04aa3ac205ac9c62e5, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 7a25482be3365f64a8f435e807bd7446, type: 2}
+    enemy: {fileID: 359020871054680172, guid: 4919a4ef5ceccdf41885ddec6963f692, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: f59137d1b3ab29549936dfc846814fb1, type: 2}
+    enemy: {fileID: 1372362142766294245, guid: b47ac760c7cc72944a0f8866c87b07a5, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 7a25482be3365f64a8f435e807bd7446, type: 2}
+    enemy: {fileID: 359020871054680172, guid: a32c8721a9705a34ea84bbf433234804, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 3cafb0eebf1988548ba526c33c083fef, type: 2}
+    enemy: {fileID: 7181463671447651370, guid: db97956e740725549aee981fb8eaa27e, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 3cafb0eebf1988548ba526c33c083fef, type: 2}
+    enemy: {fileID: 2496246544216556922, guid: 781256ce25adf2c43bfaf96852c4d815, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 3cafb0eebf1988548ba526c33c083fef, type: 2}
+    enemy: {fileID: 6747770132286583585, guid: 7c29221eae5a93d4aa25cad93455f022, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: a13c82c528fb6ec47b11d04b8d13984c, type: 2}
+    enemy: {fileID: 8874004628461889419, guid: 1833c1e7b91bf7248a09771b79c8167e, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: a13c82c528fb6ec47b11d04b8d13984c, type: 2}
+    enemy: {fileID: 8874004628461889419, guid: 625864b54ee5c2e4194e050c087b9c5e, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 96d696dfe1fb46644ae08341a9d041c8, type: 2}
+    enemy: {fileID: 7613562028097158225, guid: 9c3a5ae89f2d4d24ebccf8b6a6a72819, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 96d696dfe1fb46644ae08341a9d041c8, type: 2}
+    enemy: {fileID: 7613562028097158225, guid: faae3b7e214645145ae2b4fb817e45b9, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 4371e635cda74064eb9f5c31b959da43, type: 2}
+    enemy: {fileID: 4449873368478012813, guid: 6d5ff745835281643869d775ec5eb55f, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 4371e635cda74064eb9f5c31b959da43, type: 2}
+    enemy: {fileID: 4449873368478012813, guid: b8c5d937a9cdfe346beb64fc814defe0, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 5c5acee6e0b70dc4ba3e74d7095fcce0, type: 2}
+    enemy: {fileID: 7765134634368561684, guid: 7048ec3760decf84ca73dbfa88be4dec, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 5c5acee6e0b70dc4ba3e74d7095fcce0, type: 2}
+    enemy: {fileID: 7765134634368561684, guid: d8afc84b943f4d24eb2fffa428e02118, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 168d601a037e2004fb769f08e51ad88b, type: 2}
+    enemy: {fileID: 4362323999620070579, guid: ba28b11d4e9103945beeab9a644baf2e, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 168d601a037e2004fb769f08e51ad88b, type: 2}
+    enemy: {fileID: 4362323999620070579, guid: 796a760bababccf48b9cb2594960e962, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 1fa0baf25ddd3f148bc6e55767115fe3, type: 2}
+    enemy: {fileID: 550821599312074661, guid: dafd1aa5abc6a694d9adee3c486fbb4e, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: 1fa0baf25ddd3f148bc6e55767115fe3, type: 2}
+    enemy: {fileID: 550821599312074661, guid: 20c8507c549db64468f4d558c7b290b9, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: b11632daa4c57c44698747a052468a24, type: 2}
+    enemy: {fileID: 4245517526345973576, guid: 5176c25881f17f7468f59a4ed6464595, type: 3}
+  - enemyStatus: {fileID: 11400000, guid: b11632daa4c57c44698747a052468a24, type: 2}
+    enemy: {fileID: 4245517526345973576, guid: 62ec4795c441eb94a9285ff04fe693fb, type: 3}
+  boss:
+    enemyStatus: {fileID: 11400000, guid: 08c8960454ddf194d9556e6208743454, type: 2}
+    enemy: {fileID: 2571443397771670544, guid: e4f8e0b33ad990e47a2579ebe942021d, type: 3}

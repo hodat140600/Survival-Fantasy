@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/HUD/ChapterSelectSkillPanel.cs.meta
+guid: 15086295752604a48aeff57d48e94bf5
+========
+guid: 879fca7b66b9bce4395b20fd78d49a01
+>>>>>>>> master:Assets/Scripts/Experience/ExpToLevelUp.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

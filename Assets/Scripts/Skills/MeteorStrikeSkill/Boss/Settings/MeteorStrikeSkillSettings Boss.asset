@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6738777d889981843a93bfe51124125e, type: 3}
+  m_Name: MeteorStrikeSkillSettings Boss
+  m_EditorClassIdentifier: 
+  addedDamage: 800
+  addedNumberProjectiles: 3
+  addedRadius: 2
+  AddedCoolDown: 4
+  gameObjectPrefab: {fileID: 7638899764678920898, guid: a9f5d1ad9ab47a94db4db90be0084f4e,
+    type: 3}

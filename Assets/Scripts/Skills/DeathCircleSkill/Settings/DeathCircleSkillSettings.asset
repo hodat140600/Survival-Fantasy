@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505a4d792bf64d54b8accd8399c3bf61, type: 3}
+  m_Name: DeathCircleSkillSettings
+  m_EditorClassIdentifier: 
+  AddedDamage: 20
+  AddedNumberProjectiles: 3
+  AddedRadius: 2.5
+  AddedCoolDown: 1.5
+  gameObjectPrefab: {fileID: 7638899764678920898, guid: 148c7d46bf7ecd646bd303417f047b59,
+    type: 3}

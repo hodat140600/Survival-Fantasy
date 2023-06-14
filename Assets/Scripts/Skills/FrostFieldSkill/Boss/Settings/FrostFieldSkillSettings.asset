@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b728b6d8f9d8b043901608eb26d91a1, type: 3}
+  m_Name: FrostFieldSkillSettings
+  m_EditorClassIdentifier: 
+  addedDamage: 1200
+  addedNumberProjectiles: 3
+  addedRadius: 1.8
+  AddedCoolDown: 3
+  gameObjectPrefab: {fileID: 7638899764678920898, guid: 831036369b7f1f648a0df02aba301b09,
+    type: 3}

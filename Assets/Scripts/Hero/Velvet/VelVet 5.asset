@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b3cd3f37fdc074e9043498d0704e62, type: 3}
+  m_Name: VelVet 5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  live: {fileID: 0}
+  damage: {fileID: 0}
+  move: {fileID: 0}
+  magnet: {fileID: 0}
+  armor: {fileID: 0}
+  radius: {fileID: 0}
+  loot: {fileID: 0}
+  coolDown: {fileID: 0}
+  regeneration: {fileID: 11400000, guid: 803ecf78f7747154d853118c8701e9dd, type: 2}
+  exp: {fileID: 11400000, guid: 929f0f8763130eb40a673b59413ba424, type: 2}
+  heroID: 7
+  level: 5
+  currency: 0
+  adsCost: 0
+  moneyCost: 20000
+  heroModelPrefab: {fileID: 8792378101667681430, guid: 59ef9e29a78a61046bf81eb232385f2a,
+    type: 3}

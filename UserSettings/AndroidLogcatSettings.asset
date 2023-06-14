@@ -1,0 +1,241 @@
+{
+    "m_SelectedDeviceId": "ZS75B19B18B0042",
+    "m_SelectedPackage": {
+        "deviceId": "ZS75B19B18B0042",
+        "name": "com.rsg.hero.survival",
+        "processId": 4382,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "R9PT416TYCN",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 15214,
+            "exited": true
+        },
+        {
+            "deviceId": "R9PT416TYCN",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 29064,
+            "exited": true
+        },
+        {
+            "deviceId": "R9PT416TYCN",
+            "name": "com.survival.heroes.rsg",
+            "processId": 17861,
+            "exited": true
+        },
+        {
+            "deviceId": "R9PT416TYCN",
+            "name": "com.survival.heroes.rsg",
+            "processId": 26941,
+            "exited": true
+        },
+        {
+            "deviceId": "R9PT416TYCN",
+            "name": "com.rsg.hero.survival",
+            "processId": 24598,
+            "exited": false
+        },
+        {
+            "deviceId": "ZS75B19B18B0042",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 23893,
+            "exited": true
+        },
+        {
+            "deviceId": "ZS75B19B18B0042",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 25720,
+            "exited": true
+        },
+        {
+            "deviceId": "ZS75B19B18B0042",
+            "name": "com.survival.heroes.rsg",
+            "processId": 16025,
+            "exited": true
+        },
+        {
+            "deviceId": "ZS75B19B18B0042",
+            "name": "com.survival.heroes.rsg",
+            "processId": 19950,
+            "exited": true
+        },
+        {
+            "deviceId": "ZS75B19B18B0042",
+            "name": "com.rsg.hero.survival",
+            "processId": 4382,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.sec.android.app.launcher",
+            "processId": 6345,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 9582,
+            "exited": true
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 12499,
+            "exited": true
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 14821,
+            "exited": true
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 20143,
+            "exited": true
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 29810,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 4196,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 7757,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 10652,
+            "exited": false
+        },
+        {
+            "deviceId": "R58RC1F277J",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 17560,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.22.218:5555",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 1587,
+            "exited": false
+        },
+        {
+            "deviceId": "e8c497",
+            "name": "com.DefaultCompany.SurvivalHell",
+            "processId": 12277,
+            "exited": false
+        },
+        {
+            "deviceId": "c348de4e",
+            "name": "com.realme.securitycheck",
+            "processId": 20162,
+            "exited": true
+        },
+        {
+            "deviceId": "c348de4e",
+            "name": "com.rsg.hero.survival",
+            "processId": 21233,
+            "exited": true
+        },
+        {
+            "deviceId": "c348de4e",
+            "name": "com.rsg.hero.survival",
+            "processId": 7699,
+            "exited": true
+        },
+        {
+            "deviceId": "c348de4e",
+            "name": "com.rsg.hero.survival",
+            "processId": 14660,
+            "exited": true
+        },
+        {
+            "deviceId": "c348de4e",
+            "name": "com.rsg.hero.survival",
+            "processId": 16394,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    }
+}

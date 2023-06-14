@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6066397774245541055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6066397774245541051}
+  - component: {fileID: 6066397774245541050}
+  - component: {fileID: 6066397774245541049}
+  - component: {fileID: 5919138451107954798}
+  - component: {fileID: 4947684108264130391}
+  - component: {fileID: 6066397774245541048}
+  m_Layer: 0
+  m_Name: Reward System New Version
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6066397774245541051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6066397774245541050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9f86903c5e66d4a80e81fb7c8ffc2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rewardItems:
+  - MaxChances: 4
+    RewardItems: {fileID: 11400000, guid: 6f1618464aa6b404aaba3cfc56673c39, type: 2}
+  - MaxChances: 5
+    RewardItems: {fileID: 11400000, guid: 5770ca20c1c7e764397c61862aa7132a, type: 2}
+  - MaxChances: 2
+    RewardItems: {fileID: 11400000, guid: 52f80cd422240cb4489a00eeebb6491e, type: 2}
+  - MaxChances: 1
+    RewardItems: {fileID: 11400000, guid: dae73b2139270c3458c6cba8569852aa, type: 2}
+  - MaxChances: 8
+    RewardItems: {fileID: 11400000, guid: 079b360674c59574082b18ce9a1e2604, type: 2}
+  _dropTimPeriod: 15
+--- !u!114 &6066397774245541049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3fb35979cd78d045a42b143b5a01136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listReward: []
+--- !u!114 &5919138451107954798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7eba678c39b1f4089635b593f14326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listStaticItem:
+  - Chest
+--- !u!114 &4947684108264130391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468bb6f9e962a134ba4cb9fc11cc33a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _degreesPerSecond: 350
+  isActive: 0
+--- !u!114 &6066397774245541048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066397774245541055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008cfb7e5235b104ab694a4bab1e66da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebug: 0
+  shouldDestroyOnLoad: 0
+  pools:
+  - tag: Chest
+    prefab: {fileID: 6145799160196018490, guid: e37bc6b914bbada448a7eb3122f23f9f,
+      type: 3}
+    amount: 5
+    shouldExpandPool: 1
+    extensionLimit: 30
+  - tag: Heart
+    prefab: {fileID: 2878471632885867107, guid: ed3a1e1768ff3c142866e5a021f82e18,
+      type: 3}
+    amount: 5
+    shouldExpandPool: 1
+    extensionLimit: 30
+  - tag: Magnet
+    prefab: {fileID: 1552772378178230885, guid: 28c3d9b2ce7fea746b651056ef9961c5,
+      type: 3}
+    amount: 5
+    shouldExpandPool: 1
+    extensionLimit: 30
+  - tag: Bomb
+    prefab: {fileID: 6695051785548809955, guid: 4d7525d3999c7834c97af8b787e9c48e,
+      type: 3}
+    amount: 5
+    shouldExpandPool: 1
+    extensionLimit: 30
+  - tag: GoldCoin
+    prefab: {fileID: 1475013998370893679, guid: 557d0c1ba49816f48a52667f320c4869,
+      type: 3}
+    amount: 5
+    shouldExpandPool: 1
+    extensionLimit: 100

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b3cd3f37fdc074e9043498d0704e62, type: 3}
+  m_Name: JackOLatern 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  live: {fileID: 0}
+  damage: {fileID: 0}
+  move: {fileID: 11400000, guid: 1930b5504c106a54cb77ff1e494f9d7b, type: 2}
+  magnet: {fileID: 0}
+  armor: {fileID: 0}
+  radius: {fileID: 0}
+  loot: {fileID: 0}
+  coolDown: {fileID: 0}
+  regeneration: {fileID: 0}
+  exp: {fileID: 0}
+  heroID: 6
+  level: 1
+  moneyCost: 1000
+  heroModelPrefab: {fileID: 207411062457572705, guid: a647cfed2a2af8a428f4057313860fac,
+    type: 3}
